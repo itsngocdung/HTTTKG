@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e1d63e11bae93447a9b13219d9968871 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e1d63e11bae93447a9b13219d9968871" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e1d63e11bae93447a9b13219d9968871 = L.map(
+                "map_e1d63e11bae93447a9b13219d9968871",
+                {
+                    center: [21.04640542857143, 105.7860067142857],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_62e8be0d57cbf94b616078642aa608f0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var marker_0059305c4c4be3474bfae65ebf4c3ad3 = L.marker(
+                [21.046269, 105.785929],
+                {}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var icon_d19a02769d22c08782ed27977446339f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-person", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0059305c4c4be3474bfae65ebf4c3ad3.setIcon(icon_d19a02769d22c08782ed27977446339f);
+        
+    
+        var popup_04af863b20c75f0861e1522a320c54f9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_287e7f5ed31cd6bd46a905a6ad3fd24a = $(`<div id="html_287e7f5ed31cd6bd46a905a6ad3fd24a" style="width: 100.0%; height: 100.0%;">Bạn đang ở đây</div>`)[0];
+                popup_04af863b20c75f0861e1522a320c54f9.setContent(html_287e7f5ed31cd6bd46a905a6ad3fd24a);
+            
+        
+
+        marker_0059305c4c4be3474bfae65ebf4c3ad3.bindPopup(popup_04af863b20c75f0861e1522a320c54f9)
+        ;
+
+        
+    
+    
+            var marker_0dc593d8cca4a9daeb2d6063137f4bdf = L.marker(
+                [21.045565, 105.786314],
+                {}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var icon_fba8acefc7f314e2c0874f30fe73802f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0dc593d8cca4a9daeb2d6063137f4bdf.setIcon(icon_fba8acefc7f314e2c0874f30fe73802f);
+        
+    
+        var popup_cfca9e3b21719071489c38b4b837cd6a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_10cf09c618bdf2fd7b670c7a251f9cfb = $(`<div id="html_10cf09c618bdf2fd7b670c7a251f9cfb" style="width: 100.0%; height: 100.0%;"><strong>Mì cay sa sin</strong><br>Rating: 4.2<br>Khoảng cách: 0.09 km</div>`)[0];
+                popup_cfca9e3b21719071489c38b4b837cd6a.setContent(html_10cf09c618bdf2fd7b670c7a251f9cfb);
+            
+        
+
+        marker_0dc593d8cca4a9daeb2d6063137f4bdf.bindPopup(popup_cfca9e3b21719071489c38b4b837cd6a)
+        ;
+
+        
+    
+    
+            var marker_e4eab722819d56096abc6f60bd4ceebd = L.marker(
+                [21.044753, 105.784771],
+                {}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var icon_0fd49d8dbffd88e89e5c372782c6d0bf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e4eab722819d56096abc6f60bd4ceebd.setIcon(icon_0fd49d8dbffd88e89e5c372782c6d0bf);
+        
+    
+        var popup_25a15fa587dbf59bb828abbf2a5478ec = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e5b0a47450b120201714b265ca188909 = $(`<div id="html_e5b0a47450b120201714b265ca188909" style="width: 100.0%; height: 100.0%;"><strong>Xèo xèo buffet</strong><br>Rating: 4.7<br>Khoảng cách: 0.21 km</div>`)[0];
+                popup_25a15fa587dbf59bb828abbf2a5478ec.setContent(html_e5b0a47450b120201714b265ca188909);
+            
+        
+
+        marker_e4eab722819d56096abc6f60bd4ceebd.bindPopup(popup_25a15fa587dbf59bb828abbf2a5478ec)
+        ;
+
+        
+    
+    
+            var marker_a5423efb007bade033cc541f32e10f24 = L.marker(
+                [21.04624, 105.788464],
+                {}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var icon_c65f2a783c94dccc63b3ca962ef3a964 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a5423efb007bade033cc541f32e10f24.setIcon(icon_c65f2a783c94dccc63b3ca962ef3a964);
+        
+    
+        var popup_930d305e7884258a4018ec07b49a9066 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fb8e294412eee5c5916119b173df2129 = $(`<div id="html_fb8e294412eee5c5916119b173df2129" style="width: 100.0%; height: 100.0%;"><strong>Tiệm trà chanh Billiarsd</strong><br>Rating: 4.5<br>Khoảng cách: 0.26 km</div>`)[0];
+                popup_930d305e7884258a4018ec07b49a9066.setContent(html_fb8e294412eee5c5916119b173df2129);
+            
+        
+
+        marker_a5423efb007bade033cc541f32e10f24.bindPopup(popup_930d305e7884258a4018ec07b49a9066)
+        ;
+
+        
+    
+    
+            var marker_f8e44523ecd2957526f071c985973c50 = L.marker(
+                [21.046371, 105.78747],
+                {}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var icon_60b2d2c2d138882b7f8d7f0ac9c6e282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f8e44523ecd2957526f071c985973c50.setIcon(icon_60b2d2c2d138882b7f8d7f0ac9c6e282);
+        
+    
+        var popup_8b3202361192bb03b4e9edb0e4524e32 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b84f8f6bb8da4cb9db2391caf404e5c1 = $(`<div id="html_b84f8f6bb8da4cb9db2391caf404e5c1" style="width: 100.0%; height: 100.0%;"><strong>Nướng nhai</strong><br>Rating: 4.3<br>Khoảng cách: 0.16 km</div>`)[0];
+                popup_8b3202361192bb03b4e9edb0e4524e32.setContent(html_b84f8f6bb8da4cb9db2391caf404e5c1);
+            
+        
+
+        marker_f8e44523ecd2957526f071c985973c50.bindPopup(popup_8b3202361192bb03b4e9edb0e4524e32)
+        ;
+
+        
+    
+    
+            var marker_d1beb43096e8b147ee358838be7e3767 = L.marker(
+                [21.047875, 105.784317],
+                {}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var icon_93ae0b44c070da48b8074f2f223b3898 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d1beb43096e8b147ee358838be7e3767.setIcon(icon_93ae0b44c070da48b8074f2f223b3898);
+        
+    
+        var popup_ec64275ddd4cedacd738d61a65a93493 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_69d8493adb8bcac8f268017dfc3f4a17 = $(`<div id="html_69d8493adb8bcac8f268017dfc3f4a17" style="width: 100.0%; height: 100.0%;"><strong>Cơm tấm sườn nướng</strong><br>Rating: 4.5<br>Khoảng cách: 0.24 km</div>`)[0];
+                popup_ec64275ddd4cedacd738d61a65a93493.setContent(html_69d8493adb8bcac8f268017dfc3f4a17);
+            
+        
+
+        marker_d1beb43096e8b147ee358838be7e3767.bindPopup(popup_ec64275ddd4cedacd738d61a65a93493)
+        ;
+
+        
+    
+    
+            var marker_bf3254bab77614b7b88c4c57cf99b225 = L.marker(
+                [21.04811, 105.784368],
+                {}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var icon_a9562ec97a12eaab38a644a934ca813c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_bf3254bab77614b7b88c4c57cf99b225.setIcon(icon_a9562ec97a12eaab38a644a934ca813c);
+        
+    
+        var popup_c39bce9050c203670bdb141baaafca70 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c6b6fadb3e3d50e8f4baea11f235e266 = $(`<div id="html_c6b6fadb3e3d50e8f4baea11f235e266" style="width: 100.0%; height: 100.0%;"><strong>Bánh mì chảo</strong><br>Rating: 4.8<br>Khoảng cách: 0.26 km</div>`)[0];
+                popup_c39bce9050c203670bdb141baaafca70.setContent(html_c6b6fadb3e3d50e8f4baea11f235e266);
+            
+        
+
+        marker_bf3254bab77614b7b88c4c57cf99b225.bindPopup(popup_c39bce9050c203670bdb141baaafca70)
+        ;
+
+        
+    
+    
+            var marker_7d6fac2117845e3d59eda7326434654c = L.marker(
+                [21.045924, 105.786343],
+                {}
+            ).addTo(map_e1d63e11bae93447a9b13219d9968871);
+        
+    
+            var icon_411b1acdaabefbb744ed195223cf87c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cutlery", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7d6fac2117845e3d59eda7326434654c.setIcon(icon_411b1acdaabefbb744ed195223cf87c7);
+        
+    
+        var popup_4e2950e1b3cd85db95d0b2b60f582905 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_87278adc425249fbce7ff2e33b33d734 = $(`<div id="html_87278adc425249fbce7ff2e33b33d734" style="width: 100.0%; height: 100.0%;"><strong>Minh Châu Bakery</strong><br>Rating: 4.6<br>Khoảng cách: 0.06 km</div>`)[0];
+                popup_4e2950e1b3cd85db95d0b2b60f582905.setContent(html_87278adc425249fbce7ff2e33b33d734);
+            
+        
+
+        marker_7d6fac2117845e3d59eda7326434654c.bindPopup(popup_4e2950e1b3cd85db95d0b2b60f582905)
+        ;
+
+        
+    
+</script>
+</html>
